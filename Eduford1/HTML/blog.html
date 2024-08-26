@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Website -- Ronit</title>
+  <link rel="stylesheet" href="/CSS/blog.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b4fc90475b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <a href="/HTML/index.html"><img src="/img/logo.png " class="logo"></a>      <ul class="navbar"  id="MenuItems">
+        <li><a href="/HTML/index.html">HOME</a></li>
+        <li><a href="/HTML/about.html">ABOUT</a></li>
+        <li><a href="/HTML/course.html">COURSE</a></li>
+        <li><a href="/HTML/blog.html">BLOG</a></li>
+        <li><a href="/HTML/contact.html">CONTACT</a></li>
+      </ul>
+      <!-- <img src="/img/menu-white.png" class="menu-white" onclick="menutoggle()" alt=""> -->
+    </div>
+    <h1 id="heading1">Our Certificate & Online Program For 2024</h1>
+  </div>
+  <!-- ------------------------Our Certificate & Online Program For 2024------------- -->
+  <div class="Blog">
+    <div>
+      <img class="certificate-img" src="/img/certificate.jpg" alt="">
+    </div>
+    <div class="post-categories">
+      <button>Post Categories</button>
+      <div class="post">
+        <div class="catgroies">
+          <p>Business Analytics</p>
+          <p>Data Science</p>
+          <p>Machine Learning</p>
+          <p>Computer Science</p>
+          <p>AutoCAD</p>
+          <p>Journalism</p>
+          <p>Commerce</p>
+        </div>
+        <div class="catgroies1">
+          <p class="number">21</p>
+          <p class="number">26</p>
+          <p class="number">15</p>
+          <p class="number">34</p>
+          <p class="number">42</p>
+          <p class="number">22</p>
+          <p class="number">13</p>
+        </div>
+      </div>
+    </div>
+    <div class="description">
+      <h2>Our Certificate & Online Program For 2024</h2>
+      <div class="para">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt itaque sequi ea sint possimus, facilis
+          voluptas exercitationem expedita error id necessitatibus ab sunt? Provident aspernatur pariatur assumenda rem
+          nam at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sapiente consectetur quisquam eum at quam
+          autem, in iste sequi quidem enim deleniti, soluta esse nihil quo illum minima obcaecati? Voluptatum impedit
+          quas esse odit, incidunt voluptatibus vitae iusto inventore aspernatur error ipsum blanditiis itaque
+          repellendus perferendis quam porro maxime tenetur natus. Dicta consequuntur cumque fugit, facilis totam nobis
+          laudantium provident saepe quo quia, voluptatibus cum cupiditate odit tenetur fugiat eum numquam accusantium
+          velit. Earum fuga adipisci expedita ex perferendis delectus quis beatae odit itaque velit voluptatem, magnam
+          atque laudantium voluptate.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam repellat totam minima magni voluptates, saepe
+          exercitationem nisi animi alias nam ducimus doloremque officiis pariatur officia, impedit corrupti eligendi
+          libero numquam. Sunt exercitationem laboriosam quo deleniti cupiditate. Quibusdam impedit autem ducimus, illum
+          cum doloribus, eius quis error mollitia repellendus beatae voluptates distinctio nam dicta. Veritatis, aut a!
+          Adipisci esse quas consectetur odio nisi numquam rerum? Quo repudiandae repellat atque hic laboriosam!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae assumenda rem iure repellendus laborum
+          nobis totam nam pariatur dolore at illum dolorem quas itaque, suscipit dignissimos commodi, quisquam similique
+          soluta tenetur optio! Labore alias nemo molestias quod quos, cupiditate quidem!</p>
+      </div>
+    </div>
+  </div>
+  <div class="comment">
+    <h3>Leave a comment</h3>
+    <input type="text" name="name" id="name" placeholder="Enter Name">
+    <input type="text" name="Email" id="Email" placeholder="Enter Email">
+    <textarea name="comment" id="comment" placeholder="Your Comment" rows="5"></textarea>
+    <button>Post Comment</button>
+  </div>
+
+  <div class="next">
+    <a href="/HTML/contact.html"><button>See More 👉</button></a>
+  </div>
+  <!-- -----------------------------------footer-------------------------- -->
+  <div class="footer">
+    <div class="footer-description">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor snsectetur adipisicing elit. Corrupti consequuntur consectetur soluta recusandae <br> dicta
+        eum non illum fugiat quo aliquid, adipisci velit culpque, porro.</p>
+      <div class="social-icons">
+        <img class="social-icon3" src="/img/5282541_fb_social media_facebook_facebook logo_social network_icon (1).png"
+          alt="">
+        <img class="social-icon1" src="/img/5282542_linkedin_network_social network_linkedin logo_icon.png" alt="">
+        <img class="social-icon2" src="/img/Screenshot 2024-07-23 174309.png" alt="">
+        <img class="social-icon" src="/img/instagram_icon.png" alt="">
+        <img class="social-icon" src="/img/pintester_icon.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="footer-last">
+    <h5>&copy; Made With ❤ Ronit soni</h5>
+  </div>
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px") 
+        {
+            MenuItems.style.maxHeight = "300px";
+        }
+    else{
+            MenuItems.style.maxHeight = "0px";
+        }
+
+        }
+        
+</script>
+</body>
+
+
+</html>

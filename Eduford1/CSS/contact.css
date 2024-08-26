@@ -1,0 +1,262 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Playfair Display"; 
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  outline: none;
+
+}
+
+#header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/img/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+ 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+
+}
+
+.logo {
+  width: 200px;
+  padding: 30px;
+  margin-left: 40px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 500px;
+
+
+}
+
+#heading1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  color: #fff;
+  font-size: 51px;
+}
+
+
+/* ----------------------------------blog--------------------- */
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.location iframe{
+  width: 1130px;
+  margin: 50px;
+}
+.contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  justify-content: center;
+  align-items: center;
+}
+.contact-descriptions{
+ margin-bottom: 110px;
+}
+
+.contact-description{
+  margin-left: 211px ;
+  position: relative;
+}
+.contact-description h4{
+  font-size: 25px;
+}
+.CONTACT{
+  margin-top: 66px;
+}
+.CONTACT input{
+  border: 2px solid rgba(56, 56, 56, 0.192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ padding: 20px 300px 20px 10px;
+ border-radius: 9px;
+}
+.CONTACT textarea{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(56, 56, 56, 0.192);
+ padding: 20px 300px 20px 10px;
+ border-radius: 9px;
+}
+.CONTACT button{
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  padding: 10px 30px;
+  color: rgba(255, 68, 0, 0.856);
+  background: transparent;
+  font-size: 15px;
+  margin-top: 20px;
+  transition: 0.5s;
+  display: grid;
+    margin: 20px;
+  position: relative;
+  left: 30px;
+}
+.CONTACT button:hover{
+  transform: scale(1.12);
+  background-color: rgba(255, 68, 0, 0.856);
+  color: #fff;
+}
+/* -----------------footer---------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-description {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.footer-description p {
+  text-align: center;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.social-icon {
+  display: flex;
+  cursor: pointer;
+}
+
+.social-icon1 {
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-icon2 {
+  border-radius: 9px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.social-icon3 {
+  width: 37px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer-last {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media only screen and (max-height:700px){
+  .next button {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    display: flex;
+    padding: 9px 20px;
+    margin-left: 150px;
+    color: rgba(255, 68, 0, 0.856);
+    background: transparent;
+    font-size: 15px;
+    
+    transition: 0.5s;
+    
+  }
+#navbar{
+  display: none;
+
+}
+
+  .next button:hover {
+    transform: scale(1.12);
+    background-color: rgba(255, 68, 0, 0.856);
+    color: #fff;
+  }
+.CONTACT input{
+  border: 2px solid rgba(56, 56, 56, 0.192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ padding: 20px 200px 20px 10px;
+ border-radius: 9px;
+}
+.CONTACT textarea{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(56, 56, 56, 0.192);
+ padding: 20px 200px 20px 10px;
+ border-radius: 9px;
+}
+#header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/img/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

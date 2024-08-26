@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Playfair Display";
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+  outline: none;
+
+}
+
+#header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/img/banner.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+} 
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+
+}
+
+.logo {
+  width: 200px;
+  padding: 30px;
+  margin-left: 40px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 500px;
+
+
+}
+
+#heading1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
+  color: #fff;
+
+  font-size: 70px;
+}
+
+.about1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#heading2 {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#para2 {
+  justify-content: center;
+  font-size: 17px;
+  display: grid;
+  padding: 20px;
+}
+
+#container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 80px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.services-list div {
+  background-color: #ffe7ea;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 15px;
+
+}
+
+.services-list div p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+
+}
+
+.services-list div:hover {
+  transform: scale(1.11);
+}
+
+/* ---------------------------our facilities-------------------- */
+.about3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#heading4 {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#para4 {
+  justify-content: center;
+  font-size: 17px;
+  display: grid;
+  padding: 20px;
+}
+
+#services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 60px;
+
+}
+
+.service {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.service img {
+  width: 300px;
+  border-radius: 30px;
+  display: block;
+  transition: transfrom 0.5s;
+}
+
+.service p {
+  padding-top: 10px;
+}
+
+.service h4 {
+  padding-top: 10px;
+}
+
+/* -----------------footer---------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+.footer-description p {
+  text-align: center;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.social-icon {
+  display: flex;
+  cursor: pointer;
+}
+
+.social-icon1 {
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.social-icon2 {
+  border-radius: 9px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.social-icon3 {
+  width: 37px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer-last {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.next button{
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/img/background1.jpg);
+    min-height: 86vh;
+    min-width: 691px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+    right: 1px;
+    width: 181px;
+    top: 20px
+  }
+
+  .menu-white {
+    display: flex;
+    position: relative;
+    left: 100px;
+    width: 49px;
+    top: 19px;
+    cursor: pointer;
+  }
+
+  #heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    left: -123px;
+  }
+
+  .about1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+   
+  }
+
+  #heading2 {
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+     left: 900px;
+  }
+
+  #para2 {
+    justify-content: center;
+  font-size: 20px;
+    display: grid;
+    
+  }
+
+  #container {
+    max-width: 1300px;
+  }
+
+  .services-list {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+
+  .services-list div {
+    background-color: #ffe7ea;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 15px;
+
+  }
+
+  .services-list div p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+
+  }
+
+  .services-list div:hover {
+    transform: scale(1.11);
+  }
+
+  /* ---------------------------our facilities-------------------- */
+  .about3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #heading4 {
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  #para4 {
+    justify-content: center;
+    font-size: 20px;
+    display: grid;
+    padding: 20px;
+  }
+
+  #services-list {
+    grid-template-columns: 1fr ;
+  }
+
+  .service {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service img {
+    width: 300px;
+    border-radius: 30px;
+    display: block;
+    transition: transfrom 0.5s;
+  }
+
+  .service p {
+    padding-top: 10px;
+  }
+
+  .service h4 {
+    padding-top: 10px;
+  }
+  
+  .next button {
+    border: 1px solid rgba(255, 68, 0, 0.856);    display: flex;
+    padding: 9px 20px;
+    margin-left: 150px;
+    color: rgba(255, 68, 0, 0.856);
+    background: transparent;
+    font-size: 15px;
+    
+    transition: 0.5s;
+    
+  }
+
+  .next button:hover {
+    transform: scale(1.12);
+    background-color: rgba(255, 68, 0, 0.856);
+    color: #fff;
+  }
+}
